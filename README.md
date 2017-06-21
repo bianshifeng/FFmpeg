@@ -3,13 +3,17 @@ FFmpeg README
 
 FFmpeg is a collection of libraries and tools to process multimedia content
 such as audio, video, subtitles and related metadata.
-
+FFmpeg 是一个用来处理多媒体内容的工具和库集合，多媒体内容包括音频、视频、字幕已经相关的数据元信息
 ## Libraries
 
 * `libavcodec` provides implementation of a wider range of codecs.
+* 该库实现了对多种视频格式的解码
 * `libavformat` implements streaming protocols, container formats and basic I/O access.
+* 该库实现对视频流协议、视频解码格式和视频数据传输通道的格式化处理
 * `libavutil` includes hashers, decompressors and miscellaneous utility functions.
+* 该库提供视频编解码的一些通用功能，包括： 哈希校验、数据包解压以及其它功能
 * `libavfilter` provides a mean to alter decoded Audio and Video through chain of filters.
+* 
 * `libavdevice` provides an abstraction to access capture and playback devices.
 * `libswresample` implements audio mixing and resampling routines.
 * `libswscale` implements color conversion and scaling routines.
